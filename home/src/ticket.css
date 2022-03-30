@@ -1,0 +1,41 @@
+.ticket {
+  color: white;
+  background-color: rgb(0, 30, 69);
+  font-family: Helvetica;
+  font-size: 150%;
+  text-align: vertical;
+  border-radius: 25px;
+  min-height: 150px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.ticket:after {
+  position: absolute;
+  opacity: 0;
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.ticket:hover {
+  padding-right: 8px;
+  padding-left: 24px;
+}
+
+.ticket:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.home-container {
+  font-size: 3rem;
+  margin: auto;
+  width: 60%;
+}

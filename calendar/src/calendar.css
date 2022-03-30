@@ -1,0 +1,23 @@
+.game {
+  color: white;
+  background-color: rgb(0, 30, 69);
+  font-family: Helvetica;
+  font-size: 150%;
+  text-align: vertical;
+  border-radius: 25px;
+  min-height: 150px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.grid-container {
+  display: grid;
+}
+
+.home-container {
+  font-size: 3rem;
+  margin: auto;
+  width: 60%;
+}
